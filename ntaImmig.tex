@@ -1,0 +1,41 @@
+% Include preambule
+% just a test to remove
+\input{shared/article-pre}
+\input{shared/pre}
+\input{shared/data-pre}
+\selectlanguage{English}
+
+% normal header stat here
+\title{Net Transfer of Immigrants and Natives: A National Transfer Accounts approach}
+\author[1]{Gilbert MONTCHO}
+\author[3]{Julien Navaux}
+\author[2]{Marcel MERETTE}
+\author[1]{Yves CARRIERE}
+
+\affil[1]{Department of Demography, University of Montreal}
+\affil[2]{Faculty of Social Sciences, University of Ottawa}
+\affil[3]{Research Chair in Intergenerational Economics}
+\begin{document}
+% remove extra space btw table caption and table
+%\captionsetup[table]{skip=0pt}
+% Hide the default abstract title
+%\renewcommand{\abstractname}{\vspace{-\baselineskip}}
+\maketitle
+\begin{abstract}
+  \addcontentsline{toc}{section}{Abstract}
+  \input{chapts/1.1abstract}
+
+  \vspace{0.7em}\par
+  \textbf{Keywords}: Immigration, Public Finances, National Transfer Account.
+\end{abstract}
+
+\newpage
+\tableofcontents
+
+\newpage
+\input{content}
+
+\section*{References}
+  \addcontentsline{toc}{section}{References}
+  \printbibliography[heading=none]
+\end{document}
