@@ -68,6 +68,6 @@
 
 % Count of words
 \usepackage{moreverb} % for verbatim ouput
-\immediate\write18{texcount  -inc -merge -nobib -sum -sub=section \jobname.tex > ../shared/texcount.tex}
-\newcommand\wordcount{\verbatiminput{shared/texcount.tex}}
+\immediate\write18{texcount  -inc -merge -nobib -sum -sub=section \jobname.tex > texcount.tex}
+\newcommand\wordcount{\verbatiminput{texcount.tex}}
 
