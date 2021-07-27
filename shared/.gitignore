@@ -12,3 +12,5 @@
 **/*.bcf
 **/*-blx.bib
 **/*_temp*
+**/*.fff
+**/*.ttt
