@@ -1,5 +1,5 @@
 This study aims to compare immigrants and natives regarding their cost and contribution to the public finances.
-This allows accessing the extent to which immigration has been a contributor to public finances and supports its policies in Canada.
+This allows assessing the extent to which immigration has been a contributor to public finances and supports its policies in Canada.
 For the purpose of this article, an immigrant is defined as a person born outside Canada but living in the country as a citizen or permanent resident.
 The 2016 Census enumerated about 7.5 millions immigrants in Canada, accounting for about 22\% of the total population.
 About 61\% of immigrants in Canada live in the three metropolitan areas of Toronto, Montreal, and Vancouver.
@@ -10,14 +10,14 @@ Age-adjusted transfers are estimated using the model of continuous change.
 This section presents an overview of the two methods along with the indicators of comparison.
 
 \subsection{The National Transfer Account Method}\label{sec:nta}
-National Transfer Accounts (NTA) constitute an age-based national accounts methodology that originates from the works of \citep{Lee:1980ci} and \citep{Mason:1988fz}.
+National Transfer Accounts (NTA) constitute an age-based national accounts methodology that originates from the works of \citet{Lee:1980ci} and \citet{Mason:1988fz}.
 The NTA method introduced age into the System of National Accounts (SNA) by dis-aggregating national income, consumption, and savings by age and therefore take into account inter-generational transfers made through the State or the family.
 This article goes further by splitting transfers to and from the state between immigrants and natives.
 
 \subsubsection*{Calculating net public transfers for the entire population}
 At each age, NTA measures how individuals produce, consume, save, and share resources through the family and the state.
 NTA reconciles age profiles that are calculated from survey and administrative data with macro-aggregates from national accounts \citep{UnitedNations:2013vz}.
-The NTA equation \eqref{eq:1} decomposes the sources through which individuals fund their consumption \(C_a\):
+As illustrated in \citet{dAlbis:2019de}, the NTA equation \eqref{eq:1} decomposes the sources through which individuals fund their consumption \(C_a\):
 
 \begin{equation}\label{eq:1}
   C_a = Y^L_a+[YA_a-S_a]+[T^{FI}_a-T^{FO}_a]+[T^{GI}_a-T^{GO}_a]
@@ -30,7 +30,7 @@ Public outflow transfers  \(T^{GO}_a\) include all taxes from individuals (mainl
 \subsubsection*{Allocating public transfers to immigrants and natives}
 
 In Canada, National Transfer Accounts for the population at large have been calculated by \citet{Merette:2019kz}.
-In this paper, we allocate the components of public inflow transfers \(T^{GI}_a\) and public outflow transfers \(T^{GO}_a\) between immigrants \(IMM\) and natives \(NAT\).
+In this paper, we allocate the components of public inflow transfers \(T^{GI}_a\) and public outflow transfers \(T^{GO}_a\) between immigrants( \(IMM\) )and natives( \(NAT\)).
 Equation \eqref{eq:imm} calculate how much of the aggregate value of a given transfer \(T\) is attributed to immigrants.
 
 \begin{equation}\label{eq:imm}
@@ -51,34 +51,32 @@ The share of immigrants and natives of age (\( S^{IMM}_a \) and \( S^{NAT}_a \))
 Non-readjusted variables (\(\hat{T}^{IMM}_a \) and \(\hat{T}^{NAT}_a \)) come from the following sources.
 Public transfer inflows are calculated for four variables: education, health, cash transfers, and other inflow transfers.
 Public transfer outflows are composed of five variables: contributions to social insurance plans, direct taxes from persons, direct taxes from corporations and government business enterprises, taxes on products and imports - mainly consumption taxes - and other taxes.
-Per-capita age profiles for other inflows and outflows are considered equals for immigrants and natives.
+Per-capita age profiles for other inflows and outflows are considered equals for immigrants and natives. These include expenses on public good such national defense, public security and national debt.
 
 \vspace{0.7em}\par
 Non-readjusted age profiles for cash transfer, contributions to social insurance plans, direct taxes from persons, direct taxes from corporations and government business enterprises are calculated from the Survey of Labour and Income Dynamics (SLID, from 1997 to 2011) and the Canadian Income Survey (CIS, for 2012 and 2015).
 SLID and CIS include both a status variable that identifies immigrants and natives.
-Taxes on products are calculated from a single wave of the Survey of Household Spending (SHS).
-The 2010 wave of the SHS indicates if the household head is an immigrant or a native.
+For taxes on products are calculated from a single year of the Survey of Household Spending (SHS) is used, as only the 2010 wave of the SHS indicates whether the household head is an immigrant or a native.
 No additional information is provided for other household members.
-Therefore, it is assumed that the immigration status of household members is equivalent to the household head.
-Education costs for immigrants and natives aged 15 years and over are estimated from student enrollments by immigration status and by 5-year age groups from census samples published by Statistics Canada in Public Use Microdata Files.
-We assume that all immigrants and natives are enrolled at school before 15 years old.
-The annual component of the Canadian Community Health Survey (CCHS) is used to construct the unadjusted age profile of health care cost using the total number of medical consultation within a given year (TMC).
+Therefore, the same status is assumed for all member of the household.
+Education profile is estimated from student enrollments by immigration status and by 5-year age groups from census samples published by Statistics Canada in Public Use Microdata Files. The school attendance variable is available only for persons aged 15 and over, therefore, it is assumed that the education profile is the same for immigrants and natives aged 14 years or less.
+The number of total medical consultation (TMC) in the annual component of the Canadian Community Health Survey (CCHS) is used to construct the unadjusted age profile of health care cost.
 
 \vspace{0.7em}\par
 Using the TMC as a proxy for individual health care cost may seem inappropriate to some extent.
 But to our knowledge there is no better proxy for public health care expenditure that is easily accessible.
 Studies on health status analysis usually rely on the Health Utility Index (HUI) as a measure of individual health status.
-But the HUI has not won our favor because of three major reasons.
+But the HUI did not win our favor due to three major reasons.
 First, this variable is missing for about 56\% of the entire sample.
 For many individual year samples, it's 100\% missing.
-In caparison, the number of total medical consultation is missing for only 22\% of the entire sample.
+In caparison, the TMC is missing for only 22\% of the entire sample.
 Second, and this is more fundamental, we believe that the HUI is more subjective than the TMC and do not imply any consistent usage of health care services.
 In short, the association between HUI and health care expenditure is not strait-forward.
 This is supported by \citet{Pierard:2016ik} who found that neither the HUI nor the self-rated health status show a strong association with health care expenditure.
 The author concludes that perhaps theses measures are such noisy assessments of health status that the magnitude of their relation with health care expenditure is difficult to estimate.
 Finally, our own investigations show that the TMC has a strong correlation with the HUI (93\% for Natives and 85\% for Immigrants), suggesting that TMC are not only more likely to result in public expenditure but also manifestations of actual health concerns.
 Strangely, this relation although consistent in direction, is not that strong on micro level (with a correlation of about 33\% for Natives and 34\% for Immigrants ), perhaps due to the noisy phenomena mentioned by \citet{Pierard:2016ik}.
-Nevertheless, because of the reasons stated above, TMC is a better proxy for health usage than HUI.
+Nevertheless, because of these three reasons, TMC is a better proxy for health usage than HUI.
 
 \subsection{Measures and analytical strategy}
 
@@ -123,7 +121,7 @@ Therefore although null Net surplus signals the absence of inequality in transfe
 Trends in transfer to population ratios, net transfers, and immigrants surpluses are described in \autoref{sec:crude}.
 In the third and final step, the model of continuous change \citep{Horiuchi:2008cn} is used to decompose the crude surpluses (Immigrant and Net) and to account for the differences in the age structure of the immigrant and native populations.
 Age-standardized values are often used to account for such differences.
-In calculating the age-adjusted difference between two populations for a given characteristic, either one population is mathematically adjusted to have the same age structure as the other; or both populations are mathematically adjusted to have the same age structure as a third population, called the standard population \citet{statCan:001}.
+In calculating the age-adjusted difference between two populations for a given characteristic, either one population is mathematically adjusted to have the same age structure as the other; or both populations are mathematically adjusted to have the same age structure as a third population, called the standard population \citep{statCan:001}.
 
 \vspace{0.7em}\par
 Standardization removes the biased caused by an eventual difference in the age structure of two populations by giving the same age distribution to the two populations being compared and thus provides a much accurate representation of the difference in the characteristic they are being compared on.
@@ -136,7 +134,7 @@ The age-adjusted transfers are analyzed side by side with crude transfer and the
 
 \subsection{The Model of Continuous Changes}\label{sec:model}
 
-The model of continuous change developed by \citet{Horiuchi:2008cn} allows decomposing the difference between two summary measures resulted from the same process into components, each representing the contribution of the factors underlying the process.
+The model of continuous change developed by \citet{Horiuchi:2008cn} allows decomposing the difference between two summary measures resulting from the same process into components, each representing the contribution of the factors underlying the process.
 The process is a function, taking values of the factors (the covariates) and returning a summary measure (the dependent variable). \citet{Horiuchi:2008cn} demonstrate that, as covariates changes from states \( X_1 \) to \( X_2 \),  so does the summary measure change from \( Y_1 \) to \( Y_2 \)  and the difference between \( Y_2 \) and \( Y_1 \) can be decomposed into additive components representing the contribution of the change within each co-variate toward the difference \( Y_2 - Y_1\).
 
 \begin{equation}\label{eq:ho}
@@ -144,7 +142,7 @@ The process is a function, taking values of the factors (the covariates) and ret
 \end{equation}
 
 The decomposition is based on the assumption that changes in the covariates happen continuously, or gradually, along an actual or hypothetical dimension rather than discretely.
-It therefore, provides a reasonable justification for the additivity of co-variate effects and the elimination of interaction terms, even if the process in question is a non-additive function of the covariates \citep[p.~786]{Horiuchi:2008cn}.
+It therefore provides a reasonable justification for the additivity of co-variate effects and the elimination of interaction terms, even if the process in question is a non-additive function of the covariates \citep[p.~786]{Horiuchi:2008cn}.
 This model and its assumption make sense for phenomena where change occurs naturally over time, but it equally applies when the changes occur over a hypothetical underlying dimension \citep[p.~790]{Horiuchi:2008cn}.
 This is the case in this study where covariates and summary values change over a hypothetical immigrant to native dimension.
 Therefore equation \eqref{eq:nt} can be rewritten as
