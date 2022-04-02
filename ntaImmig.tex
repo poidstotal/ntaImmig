@@ -1,10 +1,9 @@
 % Include preambule
-% just a test to remove
-\input{../shared/article-pre}
+\documentclass[12pt,a4paper]{article}
 \input{../shared/pre}
 \input{../shared/data-pre}
+\usepackage[english]{babel}
 \selectlanguage{English}
-
 % normal header stat here
 \title{Comparing Public Transfers between Immigrants and Natives \\
  \large A National Transfer Accounts Approach}
@@ -15,7 +14,7 @@
 \author[1]{Yves CARRIERE}
 
 \affil[1]{Department of Demography, University of Montreal}
-\affil[2]{Faculty of Social Sciences, University of Ottawa}
+\affil[2]{Department of Economics, University of Ottawa}
 \affil[3]{Research Chair in Intergenerational Economics}
 
 \begin{document}
@@ -24,6 +23,9 @@
 % Hide the default abstract title
 %\renewcommand{\abstractname}{\vspace{-\baselineskip}}
 \maketitle
+\setcounter{tocdepth}{1}
+\tableofcontents
+\newpage
 \begin{abstract}
   \addcontentsline{toc}{section}{Abstract}
   \input{../ntaImmig/chapts/1.1abstract}
@@ -32,10 +34,6 @@
   \textbf{Keywords}: Immigration, Public Finances, National Transfer Account.
 \end{abstract}
 
-\newpage
-\tableofcontents
-
-\newpage
 \input{../ntaImmig/content}
 
 \section*{References}

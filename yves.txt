@@ -1,0 +1,39 @@
+p2: aged 15 and older: used the same definition as the author see https://www150.statcan.gc.ca/n1/en/pub/75-006-x/2017001/article/14826-eng.pdf?st=Vv_Ooy6D
+The phrase is changed to reduce confusion on the age group.
+
+p4: Hering, corrected, ref not found
+    but also not changed
+p7: hui refomrulated
+p8: what do you mean?
+p9: Statcan, what do you mean?, no official reference for www.statcan.gc.ca/eng/dai/btd/asr
+p11: reformulated atted ref for later retirement among immigrants
+p13: ? for net transfer, to exaplain
+p13: CA\$, https://en.wikipedia.org/wiki/Canadian_dollar
+p17: Immigrants? explain
+    change stepping to abrupt
+p18: a discuter
+    : such as immigrant surplus --> to the size of ...
+    high health cost--> add new ref sent by yves
+p20: forumler diféfement
+    university degree? refomuler
+p21: syntese, reduce par to 1 from 2
+p23: what?
+
+
+
+new comment
+---------
+one par for labour market issue--Fixed
+nuancer definition working age pop in footer(field)--Not fixed
+strictily based on fin...put at the end-Fixed
+remove missing arguement for HUI.-Fixed
+add footnot that HUI reflect some health cost that TMC does not. example maintient a domicile etc. Yves add footnote--Fixed
+
+
+add description under figure for account names--- fixed
+reduce explaination in discussion
+add age structure somewhere
+concret le dernier phar...
+
+immigration shoud not adding peoople to labour but also add income ot worker.
+immigration augement la main d'oeuvre, mais necessite des meilleur potlique

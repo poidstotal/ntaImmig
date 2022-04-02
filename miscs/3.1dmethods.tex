@@ -1,19 +1,19 @@
-This study compares immigrants and natives regarding their cost and contribution to the public finances.
+This study aims to compare immigrants and natives regarding their cost and contribution to the public finances.
 Doing so allows assessing the extent to which immigration has contributed to public finances and supports its policies in Canada.
 This article defines an immigrant as a person born outside Canada but residing as a citizen or permanent resident.
 The 2016 Census enumerated about 7.5 million immigrants in Canada, accounting for about 22\% of the total population.
 About 61\% of immigrants in Canada live in the three metropolitan areas of Toronto, Montreal, and Vancouver.
-Recent immigrants who arrived between 2011 and 2016 are mainly from Asia and belong to the economic category.
+Recent immigrants, who arrived between 2011 and 2016, are mainly from Asia and belong to the economical category.
 
 \vspace{0.7em}\par
 Per-capita costs and contributions for immigrants and natives are estimated using the National Transfer Accounts (NTA) method.
 The NTA terminology refers to costs and contributions as inflow transfers and outflow transfers, respectively, or transfers to denote both.
 Age-adjusted transfers are estimated using the model of continuous change.
-This section presents an overview of the two methods and the indicators of comparison.
+This section presents an overview of the two methods, along with the indicators of comparison.
 
 \subsection{The National Transfer Account Method}\label{sec:nta}
 National Transfer Accounts (NTA) constitute an age-based national accounts methodology that originates from the works of \citet{Lee:1980ci} and \citet{Mason:1988fz}.
-The NTA method introduced age into the System of National Accounts (SNA) by disaggregating national income, consumption, and savings by age and therefore takes into account inter-generational transfers made through the state or the family.
+The NTA method introduced age into the System of National Accounts (SNA) by dis-aggregating national income, consumption, and savings by age and therefore takes into account inter-generational transfers made through the state or the family.
 This article goes further by splitting transfers to and from the state between immigrants and natives.
 
 \subsubsection*{Calculating net public transfers for the entire population}
@@ -47,7 +47,7 @@ As evidenced by equation \eqref{eq:nat}, crude readjusted public transfer for na
 
 \subsubsection*{Data sources for public transfers}
 NTA age profiles for the population at large \({T}_a \) from 1997 to 2015 are obtained from  \citet{Merette:2019kz}.
-Statistics Canada has provided annual population estimates by age and immigration status used to calculate the share of immigrants (\( S^{IMM}_a \) and natives \( S^{NAT}_a \)) at age \(a \)
+Only for this project, Statistics Canada has provided annual population estimates by age and immigration status, used to calculate the share of immigrants (\( S^{IMM}_a \) and natives \( S^{NAT}_a \)) at age \(a \)
 
 Non-readjusted variables (\(\hat{T}^{IMM}_a \) and \(\hat{T}^{NAT}_a \)) come from the following sources.
 The calculation of Inflows requires four variables: education, health, cash transfers, and other inflow transfers.
@@ -57,7 +57,7 @@ Per-capita age profiles for other inflows and outflows are considered equals for
 \vspace{0.7em}\par
 We use two surveys to calculate non-readjusted age profiles for cash transfer, contributions to social insurance plans, direct taxes from persons, and direct taxes from corporations and government business enterprises: the Survey of Labour and Income Dynamics (SLID, from 1997 to 2011) and the Canadian Income Survey (CIS, for 2012 and 2015).
 SLID and CIS include both a status variable that identifies immigrants and natives.
-Taxes on products are calculated from a single wave of the Survey of Household Spending (SHS), as only the 2010 survey indicates an immigration status for the head of the household.
+For taxes on products are calculated from a single year of the Survey of Household Spending (SHS) is used, as only the 2010 wave of the SHS indicates whether the household head is an immigrant or a native.
 No additional information is available for other household members.
 Therefore, we assumed the same status for all members of the household.
 Education profile is estimated from student enrollments by immigration status and 5-year age groups from census samples published by Statistics Canada in Public Use Micro-data Files. The school attendance variable is available only for persons aged 15 and over; therefore, we assumed that the education profile is the same for immigrants and natives aged 14 years or less.
@@ -67,15 +67,16 @@ For constructing the unadjusted age profile of health care cost, we use the numb
 Using the TMC as a proxy for individual health care costs may seem inappropriate to some extent.
 However, there is no better proxy for public health care expenditure that is easily accessible to our knowledge.
 Studies on health status analysis usually rely on the Health Utility Index (HUI) to measure individual health status.
-However, the HUI did not win our favour mainly for two reasons.
-First, HUI is more subjective than TMC since the first is a cognitive evaluation of health status while the second represents actual usage of health care services.
-Therefore TMC is more likely than HUI to result in health care expenditure. Furthermore, \citet{Pierard:2016ik} found that self-rated health statuses, including HUI, are not strongly associated with health care expenditure.
+However, the HUI did not win our favour for three primary reasons.
+First, this variable is missing for about 56\% of the entire sample.
+For many individual year samples, it is 100\% missing.
+In comparison, the TMC is missing for only 22\% of the entire sample.
+Second and more fundamentally, we believe that the HUI is more subjective than the TMC and does not imply any consistent usage of health care services.
+In short, the association between HUI and health care expenditure is not strait-forward. Results that support this conclusion include \citet{Pierard:2016ik} who found that neither the HUI nor the self-rated health status is strongly associated with health care expenditure.
 The author concludes that these measures are such noisy health status assessments that the magnitude of their relationship with health care expenditure is difficult to estimate.
-
-\vspace{0.7em}\par
-Second, our investigations show that average TMC and HUI time series are highly correlated (about 93\% for natives and 85\% for immigrants).
-The relationship is not that intense at the micro-level (about 33\% for natives and 34\% for immigrants), perhaps due to the noisy phenomena mentioned by \citet{Pierard:2016ik}.
-To sum up, TMC appears to be a manifestation of genuine health concerns that are more likely to result in health care usage and, thus, is a better proxy for health care expenses than the HUI. Nevertheless, TMC does not reflect all expenses and may still bias the analysis.
+Finally, our investigations show that the TMC strongly correlates with the HUI (93\% for natives and 85\% for immigrants), suggesting that TMC are more likely to result in public expenditure and manifestations of genuine health concerns.
+Strangely, the relation is less intense at the micro-level (with a correlation of about 33\% for natives and 34\% for immigrants ), perhaps due to the noisy phenomena mentioned by \citet{Pierard:2016ik}.
+Nevertheless, because of these three reasons, TMC is a better proxy for health usage than HUI.
 
 \subsection{Measures and analytical strategy}
 
@@ -86,14 +87,14 @@ The analysis starts by looking at the age profile of public transfer, the age-sp
 For each account and sub-account, equations \eqref{eq:imm} and \eqref{eq:nat} provide the basis for computing the age-specific transfer time series (\( T^{r}_a \) ) for immigrants (\(T^{IMM}_a\)) and natives (\( T^{NAT}_a \)). \autoref{sec:life} describes these profile at the individual and aggregate level for the year 2015.
 
 \vspace{0.7em}\par
-The second step of the analysis (\autoref{sec:crude}) looks at crude transfers from three perspectives: the Transfer-to-Population ratios, the Net Transfers, and the Immigrant Surpluses.
+The second step of the analysis looks at crude transfers from three perspectives: the Transfer-to-Population ratios, the Net Transfers, and the Immigrant Surpluses.
 Using the age-specific time series of transfers, crude transfers (\(T^{r}_c \)) is calculated as the per-capita transfer for each account \(c \) and residency status \(r\) by dividing aggregated transfer by the total population.
 
 \begin{equation}\label{eq:pc}
   Crude Transfer=T^{r}_c= \frac{\displaystyle\sum_{a}T^{r}_{ac} }{ pop \times \displaystyle\sum_{a} S^{r}_a}=f(S^{r}_a, T^{r}_{ac})
 \end{equation}
 
-In equation \eqref{eq:pc} and the ones that followed, \(pop\) is the total population and \(S^{r}_a\) is the proportion of the population at age \(a\) for a residency status \(r\).
+In equation \eqref{eq:pc} and the ones that followed, \(pop\) is the total population and \(S^{r}_a\) is the proportion of the population at age \(a\) for and a residency status \(r\).
 
 \vspace{0.7em}\par
 The Transfer-to-Population ratio compares the proportion of transfer allocated to immigrants with their share in the population for each account.
@@ -102,9 +103,9 @@ For a given year, Net Transfer (\(NT^{r}\)) is the sum of all transfers (inflows
 Immigrant Surplus (\(IS_{c}\)) is the difference in transfer between immigrants and natives for a given account or sub-account \(c \) of inflows and outflows.
 
 \vspace{0.7em}\par
-Finally, Net Surplus (\( NS \)) is the sum of all Immigrant Surplus across all accounts or sub-accounts; or the sum of all Net Transfers (immigrants minus natives).
-Net Surplus is positive when immigrants, more than natives, receive more from public finances than they contribute to it, and negative otherwise.
-Therefore although a null Net Surplus is the sign of equilibrium in transfer between immigrants and natives, a negative Net Surplus is desirable as a justification for ongoing or increasing immigrant intake on a fiscal basis.
+Finally, Net Surplus (\( NS \)) is the sum of all Immigrant Surplus across all accounts or sub-accounts; or the sum of all Net Transfers (immigrant's minus native's).
+Net Surplus is positive when immigrants than native immigrants receive more from public finances than they contribute to it, and negative otherwise.
+Therefore although null Net Surplus is the sign of equilibrium in transfer between immigrants and natives, a negative Net Surplus is desirable as a justification for ongoing or increasing immigrant intake on a fiscal basis.
 
 \begin{equation}\label{eq:nt}
   Net Transfer=NT^{r}= \displaystyle\sum_{c}T^{r}_{c}
@@ -118,11 +119,15 @@ Therefore although a null Net Surplus is the sign of equilibrium in transfer bet
   Net Surplus = NS = \displaystyle\sum_{c}IS_{c} = \displaystyle\sum_{r}NT^{r}
 \end{equation}
 
+\autoref{sec:crude} describes the trends in Transfer-to-Population ratios, Net Transfers, and Immigrant Surpluses.
+
 \vspace{0.7em}\par
 In the third and final step, the Model of Continuous Change \citep{Horiuchi:2008cn} is used to decompose the crude surpluses (Immigrant and Net) and to account for the differences in the age structure of the two populations.
 In the literature, accounting for such differences usually relies on age-standardized values.
 Calculating the age-standardized values required adjusting either one population to have the same age structure as the other or both populations to have the same age structure as a third population, called the standard population \citep{statCan:001}.
-Standardization removes the biased caused by an eventual difference in the age structure of two populations by giving the same age distribution to the two populations and thus provides a much more accurate representation of the difference in the feature in comparison.
+
+\vspace{0.7em}\par
+Standardization removes the biased caused by an eventual difference in the age structure of two populations by giving the same age distribution to the two populations and thus provides a much accurate representation of the difference in the feature in comparison.
 However, a disadvantage of this approach is that it requires choosing an arbitrary standard which usually loads to different results for different standards.
 Therefore, \citet{Prskawetz:2005dx} proposed decomposing the crude measure change into a direct change in the characteristic of interest and the change attributable to a change in the structure or composition of the population.
 
@@ -164,8 +169,8 @@ The difference \( f(X^{IMM}_{ac}) - f(X^{NAT}_{ac}) \) is decomposed by creating
 \end{eqnarray}
 
 The results is a matrix \( Y_{ac} = \{D_{ac}, F_{ac} \} \) representing the contributions of the change of each element of \( X^{r}_{ac} =  \{S^{r}_a, T^{r}_{ac} \}\), with \( D_{ac}\) the demographic components and \( F_{ac}\) the fiscal or adjusted components of transfers.
-It's important to note here that contrary to demographic components which are constants across transfer accounts (\( S^{r}_{a}=S^{r}_{ac} \)), the fiscal components, \( D_{ac} \), on the other hand, vary along with the \(T_{ac}\).
-Following the decomposition, various summations on the elements of \( F_{ac} \) allow rebuilding immigrants and net surpluses for a given account or sub-accounts.
+It's important to note here that contrary to demography components are constants over the transfer accounts (\( S^{r}_{a}=S^{r}_{ac} \)) , the fiscal components, \( D_{ac} \), on the other hand, vary along with the \(T_{ac}\).
+Following the decomposition, various summations on the elements of \( F_{ac} \) allow to rebuilding the Net Surplusthe and immigrants surpluses for a given account or sub-accounts.
 Similarly, the elements of \( D_{ac} \) would add up to their associated demographic components.
 
 \begin{equation}\label{eq:dc3}

@@ -11,7 +11,7 @@ Method and data source
 
 Starting with the fundamental NTA equation,
 
-At each age consumption is funded by labour income, asset income minus saving, net private transfers, and net public transfers . For our purpose, we will be focusing on the accounts and sub accounts used for net public transfer: TGI and TGO, standing public inflows and public outflow transfers respectively
+At each age consumption is funded by labour income, asset income minus saving, net private transfers, and net public transfers . For our purpose, we will be focusing on the accounts and sub-accounts used for net public transfer: TGI and TGO, standing public inflows and public outflow transfers respectively
 
 TGO includes
 
@@ -27,7 +27,7 @@ Public transfer outflows \(T^{GO}_a\) include all taxes from individuals (mainly
 Julien and Marcel have estimated the components of TGO and TGI for Canada as a whole.
 
 Get TGO and TGI from Marcel and Julien estimates of NTA in Canada
-Split each sub accounts between immigrants and native.
+Split each sub-accounts between immigrants and native.
 
 
 We start by defining the per capita value of a given accounts and residency status.
@@ -50,11 +50,11 @@ Then we derives the following measure of analysis.
 
 Immigrants Suplus and Net Suplus are used as a measure of comparison.
 
-Immigrant Surplus is the difference in transfer between immigrants and natives for a given accounts or sub accounts \(c \) of inflows and outflows.
+Immigrant Surplus is the difference in transfer between immigrants and natives for a given accounts or sub-accounts \(c \) of inflows and outflows.
 
 formula--
 
-Net Surplus is the sum of all Immigrant Surplus accross all accounts or sub accounts.
+Net Surplus is the sum of all Immigrant Surplus accross all accounts or sub-accounts.
 
 formula--
 
