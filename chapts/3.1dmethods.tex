@@ -3,7 +3,7 @@ Doing so allows assessing the extent to which immigration has contributed to pub
 This article defines an immigrant as a person born outside Canada but residing as a citizen or permanent resident.
 The 2016 Census enumerated about 7.5 million immigrants in Canada, accounting for about 22\% of the total population.
 About 61\% of immigrants in Canada live in the three metropolitan areas of Toronto, Montreal, and Vancouver.
-Recent immigrants who arrived between 2011 and 2016 are mainly from Asia and belong to the economic category.
+Recent immigrants who arrived between 2011 and 2016 are mainly from Asia and belong to the economic class, those selected for their ability to contribute to Canada's economy through their employment, entrepreneurship or investment.
 
 \vspace{0.7em}\par
 Per-capita costs and contributions for immigrants and natives are estimated using the National Transfer Accounts (NTA) method.
@@ -47,7 +47,7 @@ As evidenced by equation \eqref{eq:nat}, crude readjusted public transfer for na
 
 \subsubsection*{Data sources for public transfers}
 NTA age profiles for the population at large \({T}_a \) from 1997 to 2015 are obtained from  \citet{Merette:2019kz}.
-Statistics Canada has provided annual population estimates by age and immigration status used to calculate the share of immigrants (\( S^{IMM}_a \) and natives \( S^{NAT}_a \)) at age \(a \)
+Statistics Canada has provided annual population estimates by age and immigration status used to calculate the share of immigrants (\( S^{IMM}_a \) and natives \( S^{NAT}_a \)) at age \(a \).
 
 Non-readjusted variables (\(\hat{T}^{IMM}_a \) and \(\hat{T}^{NAT}_a \)) come from the following sources.
 The calculation of Inflows requires four variables: education, health, cash transfers, and other inflow transfers.
@@ -83,7 +83,8 @@ The analytical process includes three phases corresponding to the analysis of ag
 
 \vspace{0.7em}\par
 The analysis starts by looking at the age profile of public transfer, the age-specific transfers, in light of the life cycle hypothesis of consumption \citep{Ando:1963ea,Deaton:2005vr}.
-For each account and sub-account, equations \eqref{eq:imm} and \eqref{eq:nat} provide the basis for computing the age-specific transfer time series (\( T^{r}_a \) ) for immigrants (\(T^{IMM}_a\)) and natives (\( T^{NAT}_a \)). \autoref{sec:life} describes these profile at the individual and aggregate level for the year 2015.
+For each account and sub-account, equations \eqref{eq:imm} and \eqref{eq:nat} provide the basis for computing the age-specific transfer time series (\( T^{r}_a \) ) for immigrants (\(T^{IMM}_a\)) and natives (\( T^{NAT}_a \)).
+These profiles are described at the individual and aggregate level for the year 2015 in section \autoref{sec:life}.
 
 \vspace{0.7em}\par
 The second step of the analysis (\autoref{sec:crude}) looks at crude transfers from three perspectives: the Transfer-to-Population ratios, the Net Transfers, and the Immigrant Surpluses.
@@ -99,11 +100,11 @@ In equation \eqref{eq:pc} and the ones that followed, \(pop\) is the total popul
 The Transfer-to-Population ratio compares the proportion of transfer allocated to immigrants with their share in the population for each account.
 Net Transfer, Immigrant Surplus and Net Surplus are defined and calculated as follows.
 For a given year, Net Transfer (\(NT^{r}\)) is the sum of all transfers (inflows minus outflows) across all ages, all sub-accounts \(c \) included and for each residence status (immigrants or natives) denoted by \(r \).
-Immigrant Surplus (\(IS_{c}\)) is the difference in transfer between immigrants and natives for a given account or sub-account \(c \) of inflows and outflows.
+Immigrant surplus (\(IS_{c}\)) is the difference in transfer between immigrants and natives for a given account or sub-account \(c \) of inflows and outflows.
 
 \vspace{0.7em}\par
 Finally, Net Surplus (\( NS \)) is the sum of all Immigrant Surplus across all accounts or sub-accounts; or the sum of all Net Transfers (immigrants minus natives).
-Net Surplus is positive when immigrants, more than natives, receive more from public finances than they contribute to it, and negative otherwise.
+Net surplus is positive when immigrants, more than natives, receive more from public finances than they contribute to it and negative otherwise.
 Therefore although a null Net Surplus is the sign of equilibrium in transfer between immigrants and natives, a negative Net Surplus is desirable as a justification for ongoing or increasing immigrant intake on a fiscal basis.
 
 \begin{equation}\label{eq:nt}
@@ -119,7 +120,7 @@ Therefore although a null Net Surplus is the sign of equilibrium in transfer bet
 \end{equation}
 
 \vspace{0.7em}\par
-In the third and final step, the Model of Continuous Change \citep{Horiuchi:2008cn} is used to decompose the crude surpluses (Immigrant and Net) and to account for the differences in the age structure of the two populations.
+In the third and final step (\autoref{sec:decomp}), the Model of Continuous Change \citep{Horiuchi:2008cn} is used to decompose the crude surpluses (Immigrant and Net) and to account for the differences in the age structure of the two populations.
 In the literature, accounting for such differences usually relies on age-standardized values.
 Calculating the age-standardized values required adjusting either one population to have the same age structure as the other or both populations to have the same age structure as a third population, called the standard population \citep{statCan:001}.
 Standardization removes the biased caused by an eventual difference in the age structure of two populations by giving the same age distribution to the two populations and thus provides a much more accurate representation of the difference in the feature in comparison.
@@ -129,7 +130,7 @@ Therefore, \citet{Prskawetz:2005dx} proposed decomposing the crude measure chang
 \vspace{0.7em}\par
 This study applies the Model of Continuous Change \citep{Horiuchi:2008cn} to decompose the differences in transfer between immigrants and natives into demographic and fiscal components.
 
-\subsection{The Model of Continuous Changes}\label{sec:model}
+\subsection{The Model of Continuous Changes}\label{sec:modelMCC}
 
 The Model of Continuous Change (MCC) allows extracting age-adjusted transfers from the surpluses for each transfer account.
 The age-adjusted transfer represents the fiscal components, while the difference between the crude and the age-adjusted transfer is the demographic component.
@@ -164,9 +165,8 @@ The difference \( f(X^{IMM}_{ac}) - f(X^{NAT}_{ac}) \) is decomposed by creating
 \end{eqnarray}
 
 The results is a matrix \( Y_{ac} = \{D_{ac}, F_{ac} \} \) representing the contributions of the change of each element of \( X^{r}_{ac} =  \{S^{r}_a, T^{r}_{ac} \}\), with \( D_{ac}\) the demographic components and \( F_{ac}\) the fiscal or adjusted components of transfers.
-It's important to note here that contrary to demographic components which are constants across transfer accounts (\( S^{r}_{a}=S^{r}_{ac} \)), the fiscal components, \( D_{ac} \), on the other hand, vary along with the \(T_{ac}\).
-Following the decomposition, various summations on the elements of \( F_{ac} \) allow rebuilding immigrants and net surpluses for a given account or sub-accounts.
-Similarly, the elements of \( D_{ac} \) would add up to their associated demographic components.
+Following the decomposition, the fiscal component of the immigrant surplus for a given account is obtained by summing the elements of \( F_{ac} \) accross ages, \( F_{c}= \displaystyle\sum_{a}F_{ac} \).
+Similarly, the elements of \( D_{ac} \) would add up to the associated demographic components \( D_{c}\). Therefore, immigrant surpluses for various accounts and the Net Surplus for all accounts are obtained with the following equations:
 
 \begin{equation}\label{eq:dc3}
   Immigrant Surplus =IS_{c} = \displaystyle\sum_{a}Y_{ac} = \displaystyle\sum_{a}D_{ac} + \displaystyle\sum_{a}F_{ac}
