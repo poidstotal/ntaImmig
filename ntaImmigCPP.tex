@@ -1,0 +1,124 @@
+% Include preambule
+%\input{shared/article-pre}
+\documentclass[12pt,a4paper]{article}
+\input{../shared/pre}
+\input{../shared/data-pre}
+\usepackage[english]{babel}
+\selectlanguage{English}
+\usepackage{setspace}
+\usepackage{scalerel} % for inline image
+\usepackage{endfloat} % put all fig and tab at the end
+\begin{document}
+
+%TC:ignore
+\begin{titlepage}
+
+  \title{\articleTwoTitle}
+  \author{}
+  \date{}
+  \maketitle
+
+
+% Authors
+\textbf{\LARGE Authors}
+  \vspace{0.7em}\par
+  \author{
+    \noindent
+    Gilbert MONTCHO\footnote{Corresponding author} \href{https://orcid.org/0000-0003-1845-4679}{\scalerel*{\includegraphics{../ORCID-Icon.png}}{B}} \\
+    Department of Demography, University of Montreal\\
+    gilbert.montcho@umontreal.ca
+
+    \vspace{0.7em}\par
+    \noindent
+    Julien Navaux \\
+    Research Chair in Intergenerational Economics, HEC Montreal \\
+    julien.navaux@hec.ca
+
+    \vspace{0.7em}\par
+    \noindent
+    Yves CARRIERE \\
+    Department of Demography, University of Montreal \\
+    yves.carriere@umontreal.ca
+
+    \vspace{0.7em}\par
+    \noindent
+    Marcel MERETTE\\
+    Department of Economics, University of Ottawa\\
+    mmerette@uottawa.ca
+  }
+
+  \vspace{3cm}
+
+
+\newpage
+\textbf{\LARGE Declaration}
+
+  \vspace{0.7em}\par
+  \noindent
+  Authors' contributions: GM designed and carried out the study including the writing of the manuscript. JN contributes methods and related descriptions for calculating and allocating public transfers to immigrants and natives. YC and MM contribute with proofreading and suggestion for improvement. All authors read and approved the final manuscript.
+
+  \vspace{0.7em}\par
+  \noindent
+  Conflict of Interest: None of the authors has a potential conflict of interest regarding this submission.
+
+  \vspace{0.7em}\par
+  \noindent
+  Funding: Not applicable
+
+  \vspace{0.7em}\par
+  \noindent
+  Acknowledgements: Not applicable
+
+  \vspace{0.7em}\par
+  \noindent
+  Availability of data and materials: The datasets used and/or analyzed during the current study are available from the
+  corresponding author on reasonable request.
+
+
+\end{titlepage}
+%TC:endignore
+
+
+
+\newpage
+% reset page number from here
+\setcounter{page}{1}
+% remove extra space btw table caption and table
+\captionsetup[table]{skip=0pt}
+% Hide the default abstract title
+%\renewcommand{\abstractname}{\vspace{-\baselineskip}}
+% English title
+\textbf{Title}: \articleTwoTitle
+
+\vspace{0.7em}\par
+\textbf{Keywords}: Immigration, Public Finances, National Transfer Accounts
+
+  \vspace{0.7em}\par
+  \vspace{0.7em}\par
+  \vspace{0.7em}\par
+
+  % French title
+  \textbf{Titre}:Comparaison des transferts publics aux immigrants et aux natifs au Canada : Une approche fondée sur les comptes nationaux de transfert
+  \vspace{0.7em}\par
+  \textbf{Mots clés}: Immigration, Finances publiques, Comptes nationaux de transfert
+
+  \vspace{0.7em}\par
+  \vspace{0.7em}\par
+  \vspace{0.7em}\par
+
+%\doublespacing
+\onehalfspacing
+
+\newpage
+\begin{abstract}
+  \input{../ntaImmig/chapts/1.1abstract}
+\end{abstract}
+
+\newpage
+\input{content}
+
+
+\section*{References}
+\printbibliography[heading=none]
+
+\end{document}

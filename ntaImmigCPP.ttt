@@ -1,0 +1,17 @@
+\begin{table}[H]%
+    \caption{Population and aggregated public transfers, Canada 2015}
+    \source{Author's calculations}
+    \label{tab:tx2015}%
+    \begin{center}
+      \resizebox{1\textwidth}{!}{%
+      \begin{threeparttable}
+        \input{../ntaImmig/res/tab2015.tex}%
+        \begin{tablenotes}
+          \small
+          \item [.] Population are in thousand of persons
+          \item [.] Transfer values are in millions of CAD\$
+       \end{tablenotes}
+     \end{threeparttable}
+      }
+   \end{center}
+\end{table}
