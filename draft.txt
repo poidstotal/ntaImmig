@@ -6,14 +6,14 @@ that contrary to demographic components which are constants across transfer acco
 
 
 \subsection{Source of income gap}
-The income gap between immigrants and natives arises from several factors in the labour market, including the decision to participate, hiring discrimination, and wage discrimination.
+The income gap between immigrants and natives arises from several factors in the labor  market, including the decision to participate, hiring discrimination, and wage discrimination.
 
 \vspace{0.7em}\par
-The decision to participate in the labour market partially relates to the individual or household characteristics.
+The decision to participate in the labor  market partially relates to the individual or household characteristics.
 For example, women would prefer taking care of their young child, perhaps for financial or cultural\footnote{coming from culture where babysitting or professional childcare is not well ingrained} reasons, instead of using professional babysitting or public childcare service.
-Some immigrants, both men and women, are constrained to going back to school just after their arrival or after facing difficulties in the labour market.
-As a result, immigrants aged 25-54 and who landed five or fewer years earlier are significantly less active in the labour market than their counterpart natives, with only 77.4\% against 88.8\% for counterpart natives in 2019 (Statistics Canada: Table 14-10-0083-01).
-After deciding to participate in the labour market, immigrants may also have to overcome hiring discrimination when finding and keeping a job.
+Some immigrants, both men and women, are constrained to going back to school just after their arrival or after facing difficulties in the labor  market.
+As a result, immigrants aged 25-54 and who landed five or fewer years earlier are significantly less active in the labor  market than their counterpart natives, with only 77.4\% against 88.8\% for counterpart natives in 2019 (Statistics Canada: Table 14-10-0083-01).
+After deciding to participate in the labor  market, immigrants may also have to overcome hiring discrimination when finding and keeping a job.
 
 \vspace{0.7em}\par
 Hiring discriminations consist of barriers that make it difficult for immigrants to find and retain adequate jobs.
@@ -24,7 +24,7 @@ Indirectly, hiring discriminations have two consequences.
 
 \vspace{0.7em}\par
 First, they constrain immigrants to take temporary or seasonal positions and thus to work fewer hours than desired.
-This situation is referred to as underemployment \citep{ilo:2013icls,gilbert:2022b,Mitchell:2008wo,CanadianLabourCongress:2014wi}.
+This situation is referred to as underemployment \citep{ilo:2013icls,gilbert:2022b,Mitchell:2008wo,CanadianLabor Congress:2014wi}.
 \citet{gilbert:2022b} estimate that between 2013 and 2017, the odds of being underemployed for recent immigrants compared to natives is about 40\% higher among women and 20\% for men.
 Even ten years after arrival, the average immigrant still has 15\% more unmet desire of hours than natives.
 
@@ -47,7 +47,7 @@ Wage discrimination arises when immigrants receive lower payments than natives f
 One reason for such discrimination is that employers attach a lower value to education and work experiences from some countries than others\citep{Coulombe:2014ir,Fortin:2016hl}.
 Employment and earning discriminations go, however, beyond educational considerations.
 \citet{Block:2019va} see these as the tip of the iceberg of unequivocal racialized economic discrimination in Canada.
-As a result, non-racialized immigrants do better in the Canadian labour market and sooner than racialized immigrants.
+As a result, non-racialized immigrants do better in the Canadian labor  market and sooner than racialized immigrants.
 Moreover, income inequality between racialized and non-racialized Canadians extends to second generations and beyond \citep{Block:2019va,Nadeau:2010jd,Hum:2000gz}
 
 

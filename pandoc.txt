@@ -1,0 +1,5 @@
+
+
+pandoc -s -f latex --toc --number-sections --toc-depth=2 --filter pandoc-crossref -M autoEqnLabels -M tableEqns -M autoSectionLabels -M chapters -M codeBlockCaptions -M cref -M numberSections -M figLabels -o ntaImmigCPP.docx -t docx ntaImmigCPP.tex
+
+pandoc --filter pandoc-crossref -M autoEqnLabels --citeproc -V lang=fr-CA -s ntaImmigCPP.tex -f latex -t docx -o  ntaImmigCPP.odt

@@ -23,7 +23,7 @@ p23: what?
 
 new comment
 ---------
-one par for labour market issue--Fixed
+one par for labor  market issue--Fixed
 nuancer definition working age pop in footer(field)--Not fixed
 strictily based on fin...put at the end-Fixed
 remove missing arguement for HUI.-Fixed
@@ -35,5 +35,5 @@ reduce explaination in discussion
 add age structure somewhere
 concret le dernier phar...
 
-immigration shoud not adding peoople to labour but also add income ot worker.
-immigration augement la main d'oeuvre, mais necessite des meilleur potlique
+immigration shoud not adding peoople to labor  but also add income ot worker.
+immigration augement la main-d’œuvre, mais necessite des meilleur potlique

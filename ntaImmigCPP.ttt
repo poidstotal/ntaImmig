@@ -1,6 +1,6 @@
 \begin{table}[H]%
     \caption{Population and aggregated public transfers, Canada 2015}
-    \source{Author's calculations}
+    \alt{Author's calculations}
     \label{tab:tx2015}%
     \begin{center}
       \resizebox{1\textwidth}{!}{%
