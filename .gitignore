@@ -7,7 +7,6 @@
 **/*.toc
 **/*.gz
 **/*.xml
-**/*.pdf
 **/*.dvi
 **/*.bcf
 **/*-blx.bib
